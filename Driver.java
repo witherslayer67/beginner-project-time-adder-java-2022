@@ -1,10 +1,10 @@
 import java.util.Scanner;
-
+//this is a time adder, you put ion the current time and you put how much time you want to go forward in
 
 public class Driver {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter Current Hour:");
+        System.out.println("Enter Current Hour:"); // you enter the current hour
         int currentHour = scan.nextInt();
         System.out.println("Enter Current Minute:");
         int currentMinute = scan.nextInt();
@@ -42,11 +42,11 @@ public class Driver {
         }
 
         if (isNextDay){
-            System.out.println("The Answer Is" +answerHour +":" +answerMinute + ":" +answerSecond + "on the next day");
+            System.out.println("The Answer Is" +answerHour +":" +answerMinute + ":" +answerSecond + "on the next day"); //this shit made me lose my sanity
         }
 
         else {
-            System.out.println("The Answer Is" +answerHour +":" +answerMinute + ":" +answerSecond);
+            System.out.println("The Answer Is" +answerHour +":" +answerMinute + ":" +answerSecond); //idk why a if if else works, bs
         }
     }
 }
