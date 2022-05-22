@@ -48,5 +48,6 @@ public class Driver {
         else {
             System.out.println("The Answer Is" +answerHour +":" +answerMinute + ":" +answerSecond); //idk why a if if else works, bs
         }
+        scan.close();
     }
 }
